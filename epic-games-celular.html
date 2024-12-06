@@ -1,0 +1,124 @@
+<!-- 
+    Este projeto é desenvolvido em conjunto com a disciplina de Programação Web I da Etec Polivalente de Americana 
+    e tem como a finalidade de estudar e aprofundar os conhecimentos  em HTML, CSS e JS.
+
+    Autores: Victor Hugo Campanhol e Miguel Fernando Santana
+    Turma: AMS1
+    Data: 02/12/2024
+ -->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="7TERA blog de tecnologia">
+    <meta name="keywords" content="blog, tecnologia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victor Hugo Campanhol e Miguel Fernando Santana">
+
+    <!-- Link das fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Link CSS personalizado -->
+    <link rel="stylesheet" href="stylesposts.css">
+
+    <title>7TERA - Blog de Tutoriais</title>
+    <link rel="icon" href="assets/static7.png">
+
+    
+
+
+</head>
+
+<body class="bg-light">
+  <div class="spinner-wrapper">
+    <div class="spinner-border text-success" style="width: 3rem; height: 3rem;" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-secondary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/7logo.gif" alt="Logo" width="25" height="25" class="d-inline-block align-text-top">
+                    <strong>TERA</strong>
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="quem-somos.html">Quem Somos <i class="bi bi-person-lines-fill"></i></a>
+                  </li>
+                  <li class="nav-item pe-5">
+                    <a class="nav-link" href="contato.html">Contatos <i class="bi bi-telephone-fill"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+      <!-- Script Spinner -->
+      <script src="scriptspinner.js"></script>
+
+
+      <div class="container-fluid text-center py-5">
+        <blockquote class="blockquote display-5">
+          <h1 class="text-success">Como baixar a Epic Games Store no celular para jogar Fortnite</h1>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Escrito por <cite title="Source Title">Miguel Fernando Santana</cite>
+        </figcaption>
+
+        <div id="imgposts" class="container size-20">
+          <img src="assets/epicgames.png" class="img-fluid rounded mx-auto d-block mt-5" alt="7TERA">
+        </div>
+      </div>
+
+      <div class="container-fluid text-center fs-3"><i class="bi bi-arrow-down"></i></div>
+
+      <div id="conteudo" class="container fs-5 my-5">
+
+        <p>1 - No seu navegador, acesse o site <a href="epic.download">epic.download</a>;</p>
+
+        <p>2 - 2. Vá na opção "Instalar no Android";</p>
+
+        <p>3 - 3. Clique em "download" na tela seguinte;</p>
+
+        <p>4 - Selecione "baixar mesmo assim" na janela;</p>
+
+        <p>5 - Abra o arquivo que foi baixado;</p>
+
+        <p>6 - Vá em "configurações" na janela seguinte;</p>
+
+        <p>7 - Na caixa, ative a opção "autorizar permissão";</p>
+
+        <p>8 - Pressione "Instalar" e aguarde o término do download;</p>
+
+        <p class="text-success">Acesse o aplicativo instalado e divirta-se.</p>
+
+      </div>
+
+  </main>
+
+  <footer class="bg-body-secondary py-5 mt-3">
+    <div class="container text-center">
+      <p class="display-5">7TERA</p>
+      <small class="text-black-50">Este projeto é desenvolvido em conjunto com a disciplina de Programação Web I da Etec Polivalente de Americana e tem como a finalidade de estudar e aprofundar os conhecimentos em HTML, CSS e JS.</small>
+    </div>
+  </footer>
+</body>
+</html>
